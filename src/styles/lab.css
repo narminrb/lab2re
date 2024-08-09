@@ -1,0 +1,256 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: url(../assets/backgoogle.png) no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+  
+
+.form-control{
+  max-width: 900px;
+  border: none;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+.form-control img{
+  margin: 70px 70px;
+  padding: 30px;
+  width: 80%;
+  border-radius: 50px;
+}
+.form-control input{
+  width: 100%;
+  padding: 30px;
+  border-radius: 50px;
+
+}
+.form-control ::placeholder{
+  font-size: 25px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  max-width: calc(5 * 120px + 160px);
+  margin: 20px auto;
+}
+
+.btn {
+ margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn i {
+  font-size: 48px;
+}
+
+
+.bookmarks-bar {
+  background-color: #f1f1f1;
+  display: flex;
+  overflow-x: auto;  
+  border-bottom: 1px solid #ddd;
+}
+
+.bookmarks-bar a {
+  font-size: 22px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.bookmarks-bar a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+section {
+  margin: 0 auto;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+.bookmarks-bar p{
+  font-size: 22px;
+}
+
+.rand_page p {
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  color: white;
+  font-size: 30px;
+  margin: 10px; }
+  
+  .button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .button-wrapper p {
+    margin-top: 10px; 
+    font-size: 20px;
+    color: white;
+    line-height: 1.2;
+  }
+ 
+.drive-section {
+  max-width: 100%; 
+  margin: 40px auto; 
+  padding: 30px;
+  background-color:rgb(234, 232, 232); 
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+}
+
+.drive-section h2 {
+  font-size: 28px; 
+  margin-bottom: 20px;
+  color: #494848;
+}
+
+.drive-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.drive-links li {
+  margin-bottom: 10px;
+}
+
+.drive-links a {
+  color: #3d3c3c;
+  text-decoration: none;
+  font-size: 30px; 
+}
+
+.drive-links a:hover {
+  text-decoration: underline;
+}
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-wrapper i {
+  color: #999;
+}
+
+.search-wrapper .fa-search {
+  position: absolute;
+  left: 15px;
+  font-size: 24px;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 17px 60px 17px 60px; 
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  font-size: 18px;
+  box-sizing: border-box;}
+
+
+.search-wrapper .clear-btn {
+  position: absolute;
+  right: 60px; 
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+  font-size: 24px;
+}
+
+.search-wrapper .voice-icon,
+.search-wrapper .camera-icon {
+  position: absolute;
+  right: 15px; 
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.search-wrapper .voice-icon {
+  right: 60px; 
+}
+
+.search-wrapper .camera-icon {
+  right: 15px; 
+}
+
+.search-wrapper .clear-btn:hover,
+.search-wrapper .voice-icon:hover,
+.search-wrapper .camera-icon:hover {
+  color: #333;
+}
+.google-logo {
+  position: relative;
+  text-align: center; 
+  margin: 0 auto; 
+}
+
+.google-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto; 
+  margin: 0 auto; 
+  border-radius: 50px; 
+}
+
+.share-icon {
+  position: absolute;
+  bottom: 10px; 
+  right: 10px; 
+  font-size: 30px; 
+  color: rgb(50, 49, 49); 
+  border-radius: 50%;
+  padding: 10px;
+  background: white;
+}
